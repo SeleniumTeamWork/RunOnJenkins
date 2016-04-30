@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Walmart e-commerce App running on Firefox Browser">
+
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="userName" value="Shahida Lucky"/>
+    <parameter name="key" value="0d28934f-182b-470e-92a2-7c3ef95e0646"/>
+    <parameter name="os" value="Windows 10"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="43.0"/>
+
+    <parameter name="url" value="http://www.walmart.com"/>
+
+
+    <test name="Home Page">
+
+        <classes>
+            <class name="homePage.Search"/>
+        </classes>
+
+    </test>
+
+</suite>
